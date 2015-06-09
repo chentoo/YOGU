@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5263651B27004200DDB7C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5263641B27004200DDB7C6 /* AppDelegate.swift */; };
+		DA5263671B27004200DDB7C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5263661B27004200DDB7C6 /* ViewController.swift */; };
+		DA52636A1B27004200DDB7C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5263681B27004200DDB7C6 /* Main.storyboard */; };
+		DA52636C1B27004200DDB7C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA52636B1B27004200DDB7C6 /* Images.xcassets */; };
+		DA52636F1B27004200DDB7C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA52636D1B27004200DDB7C6 /* LaunchScreen.xib */; };
+		DA52637B1B27004200DDB7C6 /* YOGUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52637A1B27004200DDB7C6 /* YOGUTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA5263751B27004200DDB7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA5263571B27004200DDB7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA52635E1B27004200DDB7C6;
+			remoteInfo = YOGU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA52635F1B27004200DDB7C6 /* YOGU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOGU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5263631B27004200DDB7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5263641B27004200DDB7C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA5263661B27004200DDB7C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA5263691B27004200DDB7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA52636B1B27004200DDB7C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA52636E1B27004200DDB7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA5263741B27004200DDB7C6 /* YOGUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOGUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5263791B27004200DDB7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA52637A1B27004200DDB7C6 /* YOGUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOGUTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA52635C1B27004200DDB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5263711B27004200DDB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA5263561B27004200DDB7C6 = {
+			isa = PBXGroup;
+			children = (
+				DA5263611B27004200DDB7C6 /* YOGU */,
+				DA5263771B27004200DDB7C6 /* YOGUTests */,
+				DA5263601B27004200DDB7C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA5263601B27004200DDB7C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA52635F1B27004200DDB7C6 /* YOGU.app */,
+				DA5263741B27004200DDB7C6 /* YOGUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5263611B27004200DDB7C6 /* YOGU */ = {
+			isa = PBXGroup;
+			children = (
+				DA5263641B27004200DDB7C6 /* AppDelegate.swift */,
+				DA5263661B27004200DDB7C6 /* ViewController.swift */,
+				DA5263681B27004200DDB7C6 /* Main.storyboard */,
+				DA52636B1B27004200DDB7C6 /* Images.xcassets */,
+				DA52636D1B27004200DDB7C6 /* LaunchScreen.xib */,
+				DA5263621B27004200DDB7C6 /* Supporting Files */,
+			);
+			path = YOGU;
+			sourceTree = "<group>";
+		};
+		DA5263621B27004200DDB7C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA5263631B27004200DDB7C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA5263771B27004200DDB7C6 /* YOGUTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA52637A1B27004200DDB7C6 /* YOGUTests.swift */,
+				DA5263781B27004200DDB7C6 /* Supporting Files */,
+			);
+			path = YOGUTests;
+			sourceTree = "<group>";
+		};
+		DA5263781B27004200DDB7C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA5263791B27004200DDB7C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA52635E1B27004200DDB7C6 /* YOGU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA52637E1B27004200DDB7C6 /* Build configuration list for PBXNativeTarget "YOGU" */;
+			buildPhases = (
+				DA52635B1B27004200DDB7C6 /* Sources */,
+				DA52635C1B27004200DDB7C6 /* Frameworks */,
+				DA52635D1B27004200DDB7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOGU;
+			productName = YOGU;
+			productReference = DA52635F1B27004200DDB7C6 /* YOGU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA5263731B27004200DDB7C6 /* YOGUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5263811B27004200DDB7C6 /* Build configuration list for PBXNativeTarget "YOGUTests" */;
+			buildPhases = (
+				DA5263701B27004200DDB7C6 /* Sources */,
+				DA5263711B27004200DDB7C6 /* Frameworks */,
+				DA5263721B27004200DDB7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA5263761B27004200DDB7C6 /* PBXTargetDependency */,
+			);
+			name = YOGUTests;
+			productName = YOGUTests;
+			productReference = DA5263741B27004200DDB7C6 /* YOGUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5263571B27004200DDB7C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = chentoo;
+				TargetAttributes = {
+					DA52635E1B27004200DDB7C6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DA5263731B27004200DDB7C6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DA52635E1B27004200DDB7C6;
+					};
+				};
+			};
+			buildConfigurationList = DA52635A1B27004200DDB7C6 /* Build configuration list for PBXProject "YOGU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA5263561B27004200DDB7C6;
+			productRefGroup = DA5263601B27004200DDB7C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA52635E1B27004200DDB7C6 /* YOGU */,
+				DA5263731B27004200DDB7C6 /* YOGUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA52635D1B27004200DDB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA52636A1B27004200DDB7C6 /* Main.storyboard in Resources */,
+				DA52636F1B27004200DDB7C6 /* LaunchScreen.xib in Resources */,
+				DA52636C1B27004200DDB7C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5263721B27004200DDB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA52635B1B27004200DDB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5263671B27004200DDB7C6 /* ViewController.swift in Sources */,
+				DA5263651B27004200DDB7C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5263701B27004200DDB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA52637B1B27004200DDB7C6 /* YOGUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA5263761B27004200DDB7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA52635E1B27004200DDB7C6 /* YOGU */;
+			targetProxy = DA5263751B27004200DDB7C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA5263681B27004200DDB7C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5263691B27004200DDB7C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA52636D1B27004200DDB7C6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA52636E1B27004200DDB7C6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA52637C1B27004200DDB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA52637D1B27004200DDB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA52637F1B27004200DDB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YOGU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA5263801B27004200DDB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YOGU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DA5263821B27004200DDB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YOGUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOGU.app/YOGU";
+			};
+			name = Debug;
+		};
+		DA5263831B27004200DDB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YOGUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOGU.app/YOGU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA52635A1B27004200DDB7C6 /* Build configuration list for PBXProject "YOGU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA52637C1B27004200DDB7C6 /* Debug */,
+				DA52637D1B27004200DDB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA52637E1B27004200DDB7C6 /* Build configuration list for PBXNativeTarget "YOGU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA52637F1B27004200DDB7C6 /* Debug */,
+				DA5263801B27004200DDB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5263811B27004200DDB7C6 /* Build configuration list for PBXNativeTarget "YOGUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5263821B27004200DDB7C6 /* Debug */,
+				DA5263831B27004200DDB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA5263571B27004200DDB7C6 /* Project object */;
+}
