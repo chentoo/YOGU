@@ -13,6 +13,7 @@
 		DA52636C1B27004200DDB7C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA52636B1B27004200DDB7C6 /* Images.xcassets */; };
 		DA52636F1B27004200DDB7C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA52636D1B27004200DDB7C6 /* LaunchScreen.xib */; };
 		DA52637B1B27004200DDB7C6 /* YOGUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52637A1B27004200DDB7C6 /* YOGUTests.swift */; };
+		EDCC822C3725A5AD58B682C3 /* Pods_YOGU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E519012652B302078F4D6F /* Pods_YOGU.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DB189AD4DC073C3F9D9B765 /* Pods-YOGU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOGU.release.xcconfig"; path = "Pods/Target Support Files/Pods-YOGU/Pods-YOGU.release.xcconfig"; sourceTree = "<group>"; };
+		B27B5C9568E5C27FD02FD46F /* Pods-YOGU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOGU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YOGU/Pods-YOGU.debug.xcconfig"; sourceTree = "<group>"; };
 		DA52635F1B27004200DDB7C6 /* YOGU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOGU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5263631B27004200DDB7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA5263641B27004200DDB7C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,8 @@
 		DA5263741B27004200DDB7C6 /* YOGUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOGUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5263791B27004200DDB7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA52637A1B27004200DDB7C6 /* YOGUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOGUTests.swift; sourceTree = "<group>"; };
+		DAC6363A1B28386700ADFD15 /* YOGU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YOGU-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1E519012652B302078F4D6F /* Pods_YOGU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOGU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDCC822C3725A5AD58B682C3 /* Pods_YOGU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +62,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76652C9D807A332782B6A816 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1E519012652B302078F4D6F /* Pods_YOGU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DA5263561B27004200DDB7C6 = {
 			isa = PBXGroup;
 			children = (
 				DA5263611B27004200DDB7C6 /* YOGU */,
 				DA5263771B27004200DDB7C6 /* YOGUTests */,
 				DA5263601B27004200DDB7C6 /* Products */,
+				E8768EFD8AC6E4C022375846 /* Pods */,
+				76652C9D807A332782B6A816 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +99,7 @@
 				DA52636B1B27004200DDB7C6 /* Images.xcassets */,
 				DA52636D1B27004200DDB7C6 /* LaunchScreen.xib */,
 				DA5263621B27004200DDB7C6 /* Supporting Files */,
+				DAC6363A1B28386700ADFD15 /* YOGU-Bridging-Header.h */,
 			);
 			path = YOGU;
 			sourceTree = "<group>";
@@ -112,6 +129,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E8768EFD8AC6E4C022375846 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B27B5C9568E5C27FD02FD46F /* Pods-YOGU.debug.xcconfig */,
+				9DB189AD4DC073C3F9D9B765 /* Pods-YOGU.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA52637E1B27004200DDB7C6 /* Build configuration list for PBXNativeTarget "YOGU" */;
 			buildPhases = (
+				2FC04614E564B60C811B77BE /* Check Pods Manifest.lock */,
 				DA52635B1B27004200DDB7C6 /* Sources */,
 				DA52635C1B27004200DDB7C6 /* Frameworks */,
 				DA52635D1B27004200DDB7C6 /* Resources */,
+				BBAAC87989381BA5F73591A1 /* Embed Pods Frameworks */,
+				49D860C6B55DA604A67D4E5E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +235,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FC04614E564B60C811B77BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49D860C6B55DA604A67D4E5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YOGU/Pods-YOGU-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBAAC87989381BA5F73591A1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YOGU/Pods-YOGU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA52635B1B27004200DDB7C6 /* Sources */ = {
@@ -338,24 +415,31 @@
 		};
 		DA52637F1B27004200DDB7C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27B5C9568E5C27FD02FD46F /* Pods-YOGU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = YOGU/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YOGU/YOGU-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DA5263801B27004200DDB7C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB189AD4DC073C3F9D9B765 /* Pods-YOGU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = YOGU/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YOGU/YOGU-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
